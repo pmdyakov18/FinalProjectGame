@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>AQ- Adventure Quest</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+		
+	</head>
+	<body>
+	        <div class="main">
+			<div class="header">
+				<img src="images/creators.jpg" class="menu-icon">
+				<p>AQ - Adventure Quest</p>
+				<img src="images/unity_icon.jpg" class="game-icon">
+				
+			</div>
+			<nav>
+			
+			
+			
+			</nav>
+			
+			
+			
+			<!-- Swiper -->
+			<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="images/character.jpg">
+				</div>
+				<div class="swiper-slide"><img src="images/character-moves.png" ></div>
+				<div class="swiper-slide"><img src="images/enemy.png"></div>
+				
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+			</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="main-text">
+				<th>Our main objective was to make a game that could look fancy like in the 
+					8bit and 64bit era. We added the most typical things in our game. You 
+					start with your own hero looking for adventures that has many enemies 
+					onwards.</th>
+			</div>
+			       <div class="main-text">
+					    <table>
+						    <tr>
+							<th>Inventors:</th>
+								
+							</tr>
+							<tr>
+								<td>Petar Dyakov </td>
+
+							</tr>
+							<tr>
+								<td>Mario Slavov</td>
+							</tr>
+							<tr>
+								<td>Miriam Georgieva</td>
+							</tr>
+							<tr>
+								<td>Ivan Kostov</td>
+							</tr>
+							<tr>
+								<td>Zhelyazko Ivanov</td>
+							</tr>
+							<tr>
+								<td>Teodora Kompanska</td>
+							</tr>
+						
+						</table>
+					</div>
+		</div>
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+		
+		
+		<!-- Initialize Swiper -->
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+	  centeredSlides:true,
+	  grabCursor:true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+	  navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+    });
+  </script>
+	</body>
+
+
+</html>
